@@ -1,0 +1,143 @@
+.tape{
+    height: 5%;
+    width: 100%;
+    margin: 20px 10px 5px 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: palevioletred;
+}
+body{
+    background-color: #282c35;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.section{
+    margin: 20px;
+}
+.section input[type='text']{
+    display: flex;
+}
+#h{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    color: palevioletred;
+    margin-top: 25px;
+}
+#title{
+    flex: 1 1 0%;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 5px;
+    margin-top: 20px;
+    margin-left: 25px ;
+	color: black;
+	font-size: 25px;
+    width: 90%;
+    height: 8.5%;
+}
+#title::placeholder{
+    color:gray;
+    opacity: 0.5;
+    font-size: 25px;
+}
+#save{
+    color: white;
+    text-align: center;
+    display: inline-block;
+	background-color: #4CAF50;
+    border-radius: 1rem;
+    border-color: #4CAF50;
+    text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.4s;
+    padding: 15px 32px;
+    font-size: larger;
+    font-weight: 700;
+    margin-right: 5px;
+}
+#save:hover{
+    opacity: 0.85;
+}
+.task .content {
+	flex: 1 1 0%;
+    margin-bottom: 10px;
+}
+
+.task .content .text {
+	color: var(--light);
+	display: block;
+	transition: 0.4s;
+    flex: 1 1 0%;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px ;
+	color: black;
+	font-size: 25px;
+    width: 90%;
+    height: 8.5%;
+}
+
+.task .content .text:not(:read-only) {
+	color: var(--pink);
+}
+
+.task .actions {
+	/*float: right;*/
+	margin: 0 -0.5rem;
+    
+}
+
+.task .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.task .actions button:hover {
+	opacity: 0.8;
+}
+
+.task .actions button:active {
+	opacity: 0.6;
+}
+
+.task .actions .edit{
+	border-radius:1rem ;
+    color: white;
+    text-align: center;
+    display: inline-block;
+	background-color: #87cefa;
+    border-color: #87cefa;
+    cursor: pointer;
+	transition: 0.4s;
+    padding: 15px 32px;
+    font-size: larger;
+    margin-left: 29px;
+    margin-bottom: 10px;
+}
+
+.task .actions .delete {
+    border-radius:1rem ;
+    border-color: crimson;
+    color: white;
+    text-align: center;
+    display: inline-block;
+	background-color: crimson;
+    cursor: pointer;
+	transition: 0.4s;
+    padding: 15px 32px;
+    font-size: larger;
+    margin-right: 10px;
+}
