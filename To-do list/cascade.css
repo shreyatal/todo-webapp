@@ -14,9 +14,7 @@ body{
     width: 100%;
     position: absolute;
 }
-.section{
-    margin: 20px;
-}
+
 .section input[type='text']{
     display: flex;
 }
